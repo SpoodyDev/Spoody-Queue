@@ -1,0 +1,77 @@
+[  
+    {
+	    "type": "AdaptiveCard",
+	    "minHeight": "100px",
+	    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	    "version": "1.2",
+	    "body": [
+	        {
+	            "type": "TextBlock",
+	            "text": "Server Name",
+	            "horizontalAlignment": "Center",
+	            "weight": "Bolder",
+	            "size": "Large"
+	        },
+			{
+	            "type": "Image",
+	            "url": "https://media.discordapp.net/attachments/923777443897163826/924706843455000626/Fivem_banner_1.gif?width=1200&height=69"
+	        },
+			{
+	            "type": "TextBlock",
+	            "text": "Server Name",
+				"spacing": "Small",
+	            "horizontalAlignment": "Center",
+	            "weight": "Bolder"
+	        },
+			{
+	            "type": "TextBlock",
+	            "text": "Server Name",
+				"spacing": "Small",
+	            "horizontalAlignment": "Center",
+	            "weight": "Bolder",
+				"color": "warning"
+	        },
+	        {
+	            "type": "TextBlock",
+	            "text": "Waiting In Queue...",
+	            "spacing": "Small",
+	            "horizontalAlignment": "Center",
+	            "weight": "Bolder"
+	        },
+	        {
+	            "type": "TextBlock",
+	            "text": "Tired of waiting in a queue? Consider visiting our store and donating for queue priority!",
+	            "horizontalAlignment": "Center",
+	            "weight": "Bolder",
+	            "size": "Small",
+	            "spacing": "Small"
+	        }
+	    ],
+		"actions": [
+			{
+				"type": "Action.OpenUrl",
+				"title": "Discord",
+				"iconUrl": "https://imgur.com/DKlC0na.png",
+				"url": "https://discord.gg/spoody"
+			},
+			{
+				"type": "Action.OpenUrl",
+				"title": "Aim Trainer",
+				"iconUrl": "https://www.pngkit.com/png/full/24-241928_m14-white-guns-for-logo.png",
+				"url": "https://app.3daimtrainer.com/quick-play"
+			},
+			{
+				"type": "Action.OpenUrl",
+				"title": "Flappy Bird",
+				"iconUrl": "https://www.pngmart.com/files/12/Flappy-Bird-Logo-PNG-Pic.png",
+				"url": "https://flappybird.io/"
+			},
+			{
+				"type": "Action.OpenUrl",
+				"title": "Store",
+				"iconUrl": "https://imgur.com/S2Kj1H8.png",
+				"url": "https://discord.gg/spoody"
+			}
+		]
+	}
+]
