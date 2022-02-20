@@ -1,7 +1,7 @@
 Config = {}
 
 local Prefix = "[Queue] " -- [NOTE] THESE TOKENS & RESOURCE ITSELF IS PROTECTED! THIS CONFIG ITSELF IS MANIFESTED AS A SERVER-SIDED CODE WHICH CAN NOT BE ACCESSABLE BY A DUMP!
-Config.DiscordServerID =  -- Discord Server ID
+Config.DiscordServerID = ""  -- Discord Server ID
 Config.DiscordBotToken = "TOKEN" -- Discord Bot Token. You can create one on https://discord.com/developers/applications
 Config.ApiLink = "" -- API Stuff
 Config.ApiKey = ""-- API Stuff
